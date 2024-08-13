@@ -51,12 +51,12 @@ const Home = () => {
                         <div className='cardMain'>
                             <h2>Top stories</h2>
                             <Row>
-                                <Col md={4} xs={6} className='cardMainLeft'>
+                                <Col xl={4} lg={6} md={12} sm={12} xs={6} className='cardMainLeft'>
                                     <img src={captureImage} alt="Capture" />
                                     <h3>Iconic Statue Of Pakistan Army's 1971 Surrender Vandalised In Bangladesh</h3>
                                     <p>2 hours ago <span>. Abhimanyu Kulkarni</span></p>
                                 </Col>
-                                <Col md={8} xs={6} className='cardMainRight'>
+                                <Col xl={8} lg={6} md={12} sm={12} xs={6} className='cardMainRight'>
                                     {loading ? (
                                         <p>Loading...</p>
                                     ) : (
@@ -108,12 +108,12 @@ const Home = () => {
                             <h2>Top stories</h2>
                             <Row>
                                 
-                                <Col md={4} xs={6} className='cardMainLeft'>
+                                <Col xl={4} lg={6} md={12} sm={12} xs={6} className='cardMainLeft'>
                                     <img src={captureImage} alt="Capture" />
                                     <h3>Iconic Statue Of Pakistan Army's 1971 Surrender Vandalised In Bangladesh</h3>
                                     <p>2 hours ago <span>. Abhimanyu Kulkarni</span></p>
                                 </Col>
-                                <Col md={8} xs={6} className='cardMainRight'>
+                                <Col xl={8} lg={6} md={12} sm={12} xs={6} className='cardMainRight'>
                                     <Col className='cardMainRightBlock'>
                                         <Col md={12} xs={12} className='cardMainRightBlock1'>
                                             <img src={newsFavIcon} /><p>SAMAA</p>

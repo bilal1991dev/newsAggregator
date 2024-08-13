@@ -272,4 +272,18 @@ body {
     transition: 0.1s;
     text-decoration: underline;
 }
-  
+@media (min-width: 768px) {
+    .homeMain {
+        width: calc(100% - 213px);
+    }
+}
+@media (min-width: 576px) {
+    .homeMain {
+        width: calc(100% - 230px);
+    }
+}
+@media (min-width: 576px) {
+    .homeMain {
+        width: calc(100% - 230px);
+    }
+}
