@@ -13,13 +13,13 @@
 3. Build the Docker image:
 
     ```bash
-    docker build -t react-app .
+    docker build -t news-aggregator .
     ```
 
 4. Run the Docker container:
 
     ```bash
-    docker run -p 3000:3000 react-app
+    docker run -p 3000:3000 news-aggregator
     ```
 
 Your React app should now be accessible at `http://localhost:3000`.
