@@ -282,8 +282,8 @@ body {
         width: calc(100% - 230px);
     }
 }
-@media (min-width: 576px) {
-    .homeMain {
-        width: calc(100% - 230px);
-    }
+@media (max-width: 480px) {
+  .homeMain {
+    width: calc(100% - 30px);
+  }
 }
